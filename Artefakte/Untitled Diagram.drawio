@@ -1,1 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-10-11T13:29:00.343Z" agent="5.0 (Macintosh)" version="15.2.7" etag="j3VjtXjuIdMZ8FKeYAja" type="github"><diagram id="AshrhRILdFQpOGaAcwBc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-11T13:40:10.023Z" agent="5.0 (Macintosh)" etag="2T-j_pvHtqg8sPD5bwes" version="15.2.7" type="github">
+  <diagram id="AshrhRILdFQpOGaAcwBc" name="Domänenmodell">
+    <mxGraphModel dx="1426" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
