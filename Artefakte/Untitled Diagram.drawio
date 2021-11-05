@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T10:50:44.702Z" agent="5.0 (Macintosh)" etag="Feeq8H2vCYb8oA9R6KWC" version="15.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-05T10:57:14.378Z" agent="5.0 (Macintosh)" etag="MZHeuVdAH8jcNYDAMXzr" version="15.6.8" type="github" pages="2">
   <diagram id="AshrhRILdFQpOGaAcwBc" name="Domänenmodell">
     <mxGraphModel dx="3565" dy="4326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -294,7 +294,7 @@
         <mxCell id="mBZQnTNcCzMDpYUCZiBP-21" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Favoriten&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="920" y="-1021" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mBZQnTNcCzMDpYUCZiBP-23" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#D5E8D4&quot;&gt;User*in&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#3333FF&quot;&gt;Artothek / System&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#EA6B66&quot;&gt;Künster*Innen&lt;/font&gt;&lt;/li&gt;&lt;li&gt;bisher keine Zuordnung&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;font color=&quot;#67AB9F&quot;&gt;&lt;font color=&quot;#FF9933&quot;&gt;Diskutieren&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
+        <mxCell id="mBZQnTNcCzMDpYUCZiBP-23" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Legende &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;font color=&quot;#82B366&quot;&gt;User*in&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#6C8EBF&quot;&gt;Artothek / System&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#B85450&quot;&gt;Künster*Innen&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#9673A6&quot;&gt;Organisationen&lt;/font&gt;&lt;br&gt;bisher keine Zuordnung &lt;br&gt;(Keine Farbe)&lt;br&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;font color=&quot;#67AB9F&quot;&gt;&lt;font color=&quot;#FF9933&quot;&gt;Diskutieren&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" parent="1" vertex="1">
           <mxGeometry x="490" y="-1410" width="200" height="170" as="geometry" />
         </mxCell>
         <mxCell id="lZFuarYsU6sco2omhiMH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#FF9933;endArrow=none;endFill=0;" parent="1" source="X55CJAzNHR_dMCydjRJK-2" target="KFBtc_9nncnUmwofdXCp-3" edge="1">
@@ -336,7 +336,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X55CJAzNHR_dMCydjRJK-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Verband (Artotheken)&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="X55CJAzNHR_dMCydjRJK-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Verband (Artotheken)&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="1760" y="-340" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lZFuarYsU6sco2omhiMH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF9933;endArrow=none;endFill=0;strokeColor=default;" parent="1" source="X55CJAzNHR_dMCydjRJK-8" target="X55CJAzNHR_dMCydjRJK-10" edge="1">
@@ -351,7 +351,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X55CJAzNHR_dMCydjRJK-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Artotheken&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="X55CJAzNHR_dMCydjRJK-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Artotheken&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="1760" y="-210" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BG0RvGBv3_98CWM3PcXa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#FF9933;endArrow=none;endFill=0;strokeColor=default;" parent="1" source="X55CJAzNHR_dMCydjRJK-9" target="X55CJAzNHR_dMCydjRJK-7" edge="1">
@@ -391,7 +391,7 @@
         <mxCell id="BG0RvGBv3_98CWM3PcXa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF9933;endArrow=none;endFill=0;strokeColor=default;" parent="1" source="X55CJAzNHR_dMCydjRJK-11" target="X55CJAzNHR_dMCydjRJK-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X55CJAzNHR_dMCydjRJK-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Träger&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="X55CJAzNHR_dMCydjRJK-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Träger&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="2020" y="-340" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BG0RvGBv3_98CWM3PcXa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF9933;endArrow=none;endFill=0;strokeColor=default;" parent="1" source="X55CJAzNHR_dMCydjRJK-12" target="X55CJAzNHR_dMCydjRJK-10" edge="1">
