@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T13:55:34.002Z" agent="5.0 (Macintosh)" etag="Oj9tfE_VW0-MXhkVImrI" version="15.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-12T13:57:52.472Z" agent="5.0 (Macintosh)" etag="XU61-NIYarlx0KItmFAb" version="15.7.0" type="github" pages="3">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
-    <mxGraphModel dx="541" dy="2689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="3363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-0" />
         <mxCell id="VY2cDKLRbNuXClx3hJeE-1" parent="VY2cDKLRbNuXClx3hJeE-0" />
@@ -17,9 +17,9 @@
           <mxGeometry x="80" y="-1560" width="200" height="170" as="geometry" />
         </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Begegnung&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="1640" y="-1350" width="140" height="60" as="geometry" />
+          <mxGeometry x="2140" y="-706" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MjiaOBW0HprSQLc15TfK-1" value="(Kunst-)Werke" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;strokeColor=#6c8ebf;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
+        <mxCell id="MjiaOBW0HprSQLc15TfK-1" value="Artefakte" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;strokeColor=#6c8ebf;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
           <mxGeometry x="1100" y="64" width="140" height="182" as="geometry">
             <mxRectangle x="1252.5" y="260" width="110" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -78,20 +78,8 @@
         <mxCell id="MjiaOBW0HprSQLc15TfK-28" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-25">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MjiaOBW0HprSQLc15TfK-29" value="Kunst- (Fach- ) Literatur" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;strokeColor=#6c8ebf;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="840" y="430" width="140" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="MjiaOBW0HprSQLc15TfK-30" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-29">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="MjiaOBW0HprSQLc15TfK-31" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-29">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="MjiaOBW0HprSQLc15TfK-32" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-29">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-38" value="Versicherung" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;strokeColor=#6c8ebf;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="827" y="103" width="140" height="104" as="geometry" />
+          <mxGeometry x="1740" y="-140" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-39" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-38">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
