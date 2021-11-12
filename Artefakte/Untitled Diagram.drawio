@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T13:34:09.631Z" agent="5.0 (Macintosh)" etag="wqn0O3DELf3c5X8pENRr" version="15.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-12T13:55:34.002Z" agent="5.0 (Macintosh)" etag="Oj9tfE_VW0-MXhkVImrI" version="15.7.0" type="github" pages="3">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
-    <mxGraphModel dx="1113" dy="3062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="2689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-0" />
         <mxCell id="VY2cDKLRbNuXClx3hJeE-1" parent="VY2cDKLRbNuXClx3hJeE-0" />
-        <mxCell id="VY2cDKLRbNuXClx3hJeE-17" value="&lt;h1&gt;Entitäten&lt;/h1&gt;&lt;div&gt;Kunstwerke&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Techniken, Stilrichtung -&amp;gt; entität oder Attribut von Kunstwerk?&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Interessenten&lt;/div&gt;&lt;div&gt;Kunden = Mitglied = Abbonent&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Zuhause,Arbeitsplatz = Raum?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Ausleihe -&amp;gt; (Ausleih-)Zeitraum eigene Entität oder Attribut?&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Infomieren&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Orientierungshilfen?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Archiv = Sammlung?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Ansicht?&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Begegnung&lt;/div&gt;&lt;div&gt;Ausstellung&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Qualität und Aussage einer Arbeit?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Technik&lt;/div&gt;&lt;div&gt;Kunst&lt;/div&gt;&lt;div&gt;Gestaltung&lt;/div&gt;&lt;div&gt;Anmeldung&lt;/div&gt;&lt;div&gt;Suche&lt;/div&gt;&lt;div&gt;Ausleihstatus&lt;br&gt;Verfügbarkeit&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Termin&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Reservierung&lt;br&gt;Benachrichtigung / Mitteilung&lt;br&gt;Copyright&lt;br&gt;Favoriten&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Vorauswahl?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Gebühren (Leih und Mahngebühren)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Verbuchungssystem&lt;br&gt;Leih-und Mahnsystem (Verwaltungssystem)&lt;/font&gt;&lt;br&gt;Außendarstellung ( Soziale Netzwerke, Vermarktung ) &lt;br&gt;&lt;/div&gt;&lt;div&gt;Träger (Kulturamt, ...)&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF0000&quot;&gt;Leihgeber*innen / Besitzer*innen&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
+        <mxCell id="VY2cDKLRbNuXClx3hJeE-17" value="&lt;h1&gt;Entitäten&lt;/h1&gt;&lt;div&gt;Interessenten&lt;/div&gt;&lt;div&gt;Kunden = Mitglied = Abbonent&lt;br&gt;&lt;/div&gt;&lt;div&gt;Zuhause,Arbeitsplatz = Raum?&lt;/div&gt;&lt;div&gt;Ausleihe&lt;br&gt;&lt;/div&gt;&lt;div&gt;Infomieren&lt;/div&gt;&lt;div&gt;Archiv = Sammlung&lt;/div&gt;&lt;div&gt;Begegnung&lt;/div&gt;&lt;div&gt;Ausstellung&lt;/div&gt;&lt;div&gt;Anmeldung&lt;/div&gt;&lt;div&gt;Suche&lt;br&gt;Verfügbarkeit&lt;/div&gt;&lt;div&gt;Reservierung&lt;br&gt;Benachrichtigung / Mitteilung&lt;br&gt;Copyright&lt;br&gt;Favoriten&lt;/div&gt;&lt;div&gt;Gebühren (Leih und Mahngebühren)&lt;br&gt;Außendarstellung ( Soziale Netzwerke, Vermarktung )&amp;nbsp;&lt;/div&gt;&lt;div&gt;Artefakte (Kunstwerk, Literatur, Begleitliteratur, Interviews, o.Ä.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Techniken, Stilrichtung -&amp;gt; entität oder Attribut von Artefakt&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;das System soll Orientierungshilfen geben?&lt;/div&gt;&lt;div&gt;Vorauswahl mit hilfe des systems treffen und dann hin gehen&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
           <mxGeometry x="80" y="-1320" width="370" height="630" as="geometry" />
         </mxCell>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-35" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;span&gt;Informieren&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
@@ -66,20 +66,8 @@
         <mxCell id="MjiaOBW0HprSQLc15TfK-16" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-13">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MjiaOBW0HprSQLc15TfK-17" value="Außendarstellung" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;strokeColor=#6c8ebf;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="1630" y="-40" width="140" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="MjiaOBW0HprSQLc15TfK-18" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-17">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="MjiaOBW0HprSQLc15TfK-19" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-17">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="MjiaOBW0HprSQLc15TfK-20" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-17">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-25" value="Personal" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;strokeColor=#6c8ebf;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="1060" y="408" width="140" height="104" as="geometry" />
+          <mxGeometry x="1080" y="-220" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-26" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-25">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -115,7 +103,7 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-42" value="Austellung" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;strokeColor=#6c8ebf;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="827" y="-30" width="140" height="104" as="geometry" />
+          <mxGeometry x="760" y="-510" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-43" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-42">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -273,7 +261,7 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xb_qL5ZKRjddOutZD5-1-20" value="Gebühren" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;strokeColor=#6c8ebf;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="1280" y="-150" width="140" height="104" as="geometry" />
+          <mxGeometry x="967" y="-500" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="xb_qL5ZKRjddOutZD5-1-21" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="xb_qL5ZKRjddOutZD5-1-20">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -346,7 +334,7 @@
         <mxCell id="xb_qL5ZKRjddOutZD5-1-40" value="Ausleihe" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;strokeColor=#82b366;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
           <mxGeometry x="1380" y="-510" width="140" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="xb_qL5ZKRjddOutZD5-1-41" value="+ field: type" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="xb_qL5ZKRjddOutZD5-1-40">
+        <mxCell id="xb_qL5ZKRjddOutZD5-1-41" value="+ zeitraum" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="xb_qL5ZKRjddOutZD5-1-40">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xb_qL5ZKRjddOutZD5-1-42" value="+ field: type" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="xb_qL5ZKRjddOutZD5-1-40">
