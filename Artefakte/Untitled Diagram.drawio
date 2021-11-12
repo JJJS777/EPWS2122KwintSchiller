@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T16:56:49.653Z" agent="5.0 (Macintosh)" etag="vypSjZHhCl5aIn8P3s_Y" version="15.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-12T16:58:32.933Z" agent="5.0 (Macintosh)" etag="Ib3Roz0GgCSspwXBCbl8" version="15.7.0" type="github" pages="3">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
     <mxGraphModel dx="1630" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-0" />
         <mxCell id="VY2cDKLRbNuXClx3hJeE-1" parent="VY2cDKLRbNuXClx3hJeE-0" />
-        <mxCell id="VY2cDKLRbNuXClx3hJeE-17" value="&lt;h1&gt;Entitäten&lt;/h1&gt;&lt;div&gt;Interessenten&lt;/div&gt;&lt;div&gt;Kunden = Mitglied = Abbonent&lt;br&gt;&lt;/div&gt;&lt;div&gt;Zuhause,Arbeitsplatz = Raum?&lt;/div&gt;&lt;div&gt;Ausleihe&lt;br&gt;&lt;/div&gt;&lt;div&gt;Infomieren&lt;/div&gt;&lt;div&gt;Archiv = Sammlung&lt;/div&gt;&lt;div&gt;Begegnung&lt;/div&gt;&lt;div&gt;Ausstellung&lt;/div&gt;&lt;div&gt;Anmeldung&lt;/div&gt;&lt;div&gt;Suche&lt;br&gt;Verfügbarkeit&lt;/div&gt;&lt;div&gt;Reservierung&lt;br&gt;Benachrichtigung / Mitteilung&lt;br&gt;Copyright&lt;br&gt;Favoriten&lt;/div&gt;&lt;div&gt;Gebühren (Leih und Mahngebühren)&lt;br&gt;Außendarstellung ( Soziale Netzwerke, Vermarktung )&amp;nbsp;&lt;/div&gt;&lt;div&gt;Artefakte (Kunstwerk, Literatur, Begleitliteratur, Interviews, o.Ä.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Techniken, Stilrichtung -&amp;gt; entität oder Attribut von Artefakt&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;das System soll Orientierungshilfen geben?&lt;/div&gt;&lt;div&gt;Vorauswahl mit hilfe des systems treffen und dann hin gehen&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="370" y="-874" width="370" height="394" as="geometry" />
+        <mxCell id="VY2cDKLRbNuXClx3hJeE-17" value="&lt;h1&gt;Entitäten&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Interessenten&lt;/li&gt;&lt;li&gt;Kunden = Mitglied = Abbonent&lt;/li&gt;&lt;li&gt;Zuhause,Arbeitsplatz = Raum?&lt;/li&gt;&lt;li&gt;Ausleihe&lt;/li&gt;&lt;li&gt;Infomieren&lt;/li&gt;&lt;li&gt;Archiv = Sammlung&lt;/li&gt;&lt;li&gt;Begegnung&lt;/li&gt;&lt;li&gt;Ausstellung&lt;/li&gt;&lt;li&gt;Anmeldung&lt;/li&gt;&lt;li&gt;Suche&lt;/li&gt;&lt;li&gt;Verfügbarkeit&lt;/li&gt;&lt;li&gt;Reservierung&lt;/li&gt;&lt;li&gt;Benachrichtigung / Mitteilung&lt;/li&gt;&lt;li&gt;Copyright&lt;/li&gt;&lt;li&gt;Favoriten&lt;/li&gt;&lt;li&gt;Gebühren (Leih und Mahngebühren)&lt;/li&gt;&lt;li&gt;Außendarstellung ( Soziale Netzwerke, Vermarktung )&amp;nbsp;&lt;/li&gt;&lt;li&gt;Artefakte (Kunstwerk, Literatur, Begleitliteratur, Interviews, o.Ä.&lt;/li&gt;&lt;li&gt;Techniken, Stilrichtung -&amp;gt; entität oder Attribut von Artefakt&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;das System soll Orientierungshilfen geben?&lt;/li&gt;&lt;li&gt;Vorauswahl mit hilfe des systems treffen und dann hin gehen&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
+          <mxGeometry x="370" y="-874" width="280" height="494" as="geometry" />
         </mxCell>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-35" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;span&gt;Informieren&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="370" y="-404" width="140" height="60" as="geometry" />
+          <mxGeometry x="380" y="-210" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-55" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;span&gt;Anmeldung&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="370" y="-282" width="140" height="60" as="geometry" />
+          <mxGeometry x="380" y="-88" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-69" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Legende &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;font color=&quot;#82B366&quot;&gt;User*in&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#6C8EBF&quot;&gt;Artothek / System&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;font color=&quot;#67AB9F&quot;&gt;&lt;font color=&quot;#FF9933&quot;&gt;Diskutieren&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;font color=&quot;#67AB9F&quot;&gt;&lt;font color=&quot;#FF0000&quot;&gt;Neu dazugekommen&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
           <mxGeometry x="370" y="-1114" width="200" height="170" as="geometry" />
         </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Begegnung&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="370" y="-170" width="140" height="60" as="geometry" />
+          <mxGeometry x="380" y="24" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xb_qL5ZKRjddOutZD5-1-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="VY2cDKLRbNuXClx3hJeE-1" source="MjiaOBW0HprSQLc15TfK-1" target="MjiaOBW0HprSQLc15TfK-7">
           <mxGeometry relative="1" as="geometry" />
@@ -893,7 +893,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NRoLkXsM9BB7uL42oZsM" name="Page-2">
-    <mxGraphModel dx="1426" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="eqzvlivAeTR5LK6ImDcL-0" />
         <mxCell id="eqzvlivAeTR5LK6ImDcL-1" parent="eqzvlivAeTR5LK6ImDcL-0" />
