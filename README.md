@@ -16,6 +16,6 @@ Ziel dieses Projektes ist die Unterstützung und Förderung regionaler und über
 ## Relevanz
 Kunst und Kultur ist und bleibt ein wichtiges Teil gesellschaftlichen Lebens, allerdings geht die Kultur- und Kunstvermittlung oft nicht im Gleichschritt mit der Zeit. Die positive Effekte, die mit Verbesserung des bestehenden Artothek Verleihservices erreicht werden könnten sind für unsere Gesellschaft von großer Bedeutung.  Da das alltägliches Erleben von Kunst in ruhiger vertrauter Umgebung nicht nur einer einzigen Person die Vorteile bringt, sondern auch seiner/ihrer Umgebung, und so wird die Kunst nicht Fremd, gibt Inspiration und schafft Verbundenheit. 
 
-## Domänenmodell Version 2.0
+## Domänenmodell Version 3.0
 
-![domänenmodell_v2.0](https://github.com/JJJS777/EPWS2122KwintSchiller/blob/main/Artefakte/Untitled%20Diagram-Dom%C3%A4nenmodell.drawio.png "Domänenmodell")
+![domänenmodell_v3.0](https://github.com/JJJS777/EPWS2122KwintSchiller/blob/main/Artefakte/Untitled%20Diagram-Dom%C3%A4nenmodell_v3.0.drawio.png "Domänenmodell_v3.0")
