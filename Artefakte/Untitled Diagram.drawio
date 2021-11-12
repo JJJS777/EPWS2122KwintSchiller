@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T16:59:17.219Z" agent="5.0 (Macintosh)" etag="EWkBItwHUEq9nbu-POdt" version="15.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-12T16:59:53.717Z" agent="5.0 (Macintosh)" etag="g9hLU39sn9vPN0pz_2oR" version="15.7.0" type="github" pages="3">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
-    <mxGraphModel dx="1397" dy="3151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="3474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-0" />
         <mxCell id="VY2cDKLRbNuXClx3hJeE-1" parent="VY2cDKLRbNuXClx3hJeE-0" />
         <mxCell id="VY2cDKLRbNuXClx3hJeE-17" value="&lt;h1&gt;Entitäten&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Interessenten&lt;/li&gt;&lt;li&gt;Kunden = Mitglied = Abbonent&lt;/li&gt;&lt;li&gt;Zuhause,Arbeitsplatz = Raum?&lt;/li&gt;&lt;li&gt;Ausleihe&lt;/li&gt;&lt;li&gt;Infomieren&lt;/li&gt;&lt;li&gt;Archiv = Sammlung&lt;/li&gt;&lt;li&gt;Begegnung&lt;/li&gt;&lt;li&gt;Ausstellung&lt;/li&gt;&lt;li&gt;Anmeldung&lt;/li&gt;&lt;li&gt;Suche&lt;/li&gt;&lt;li&gt;Verfügbarkeit&lt;/li&gt;&lt;li&gt;Reservierung&lt;/li&gt;&lt;li&gt;Benachrichtigung / Mitteilung&lt;/li&gt;&lt;li&gt;Copyright&lt;/li&gt;&lt;li&gt;Favoriten&lt;/li&gt;&lt;li&gt;Gebühren (Leih und Mahngebühren)&lt;/li&gt;&lt;li&gt;Außendarstellung ( Soziale Netzwerke, Vermarktung )&amp;nbsp;&lt;/li&gt;&lt;li&gt;Artefakte (Kunstwerk, Literatur, Begleitliteratur, Interviews, o.Ä.&lt;/li&gt;&lt;li&gt;Techniken, Stilrichtung -&amp;gt; entität oder Attribut von Artefakt&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;das System soll Orientierungshilfen geben?&lt;/li&gt;&lt;li&gt;Vorauswahl mit hilfe des systems treffen und dann hin gehen&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="370" y="-874" width="280" height="494" as="geometry" />
+          <mxGeometry x="390" y="-1005" width="280" height="494" as="geometry" />
         </mxCell>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-35" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;span&gt;Informieren&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
           <mxGeometry x="380" y="-210" width="140" height="60" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry x="380" y="-88" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-69" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Legende &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;font color=&quot;#82B366&quot;&gt;User*in&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#6C8EBF&quot;&gt;Artothek / System&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;font color=&quot;#67AB9F&quot;&gt;&lt;font color=&quot;#FF9933&quot;&gt;Diskutieren&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;font color=&quot;#67AB9F&quot;&gt;&lt;font color=&quot;#FF0000&quot;&gt;Neu dazugekommen&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="370" y="-1114" width="200" height="170" as="geometry" />
+          <mxGeometry x="400" y="-1200" width="200" height="170" as="geometry" />
         </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Begegnung&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
           <mxGeometry x="380" y="24" width="140" height="60" as="geometry" />
@@ -95,7 +95,7 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-42" value="Austellung" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;strokeColor=#6c8ebf;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="687" y="-740" width="140" height="104" as="geometry" />
+          <mxGeometry x="687" y="-510" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-43" value="+ field: type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MjiaOBW0HprSQLc15TfK-42">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
