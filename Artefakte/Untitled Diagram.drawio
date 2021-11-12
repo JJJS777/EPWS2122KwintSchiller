@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T16:54:16.717Z" agent="5.0 (Macintosh)" etag="ms-pje04hZVZ4zoj2rvl" version="15.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-12T16:56:36.193Z" agent="5.0 (Macintosh)" etag="7lLLGDoBPiRUx_T4_7zy" version="15.7.0" type="github" pages="3">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
-    <mxGraphModel dx="978" dy="2907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1630" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-0" />
         <mxCell id="VY2cDKLRbNuXClx3hJeE-1" parent="VY2cDKLRbNuXClx3hJeE-0" />
@@ -446,7 +446,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AshrhRILdFQpOGaAcwBc" name="Alt_Domänenmodell_v2.0">
-    <mxGraphModel dx="2377" dy="3663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="2812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -529,7 +529,7 @@
           <mxGeometry x="1091" y="-1241" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KFBtc_9nncnUmwofdXCp-6" value="&lt;h1&gt;Entitäten&lt;/h1&gt;&lt;div&gt;Kunstwerke&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Techniken, Stilrichtung -&amp;gt; entität oder Attribut von Kunstwerk?&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Interessenten&lt;/div&gt;&lt;div&gt;Kunden&lt;/div&gt;&lt;div&gt;Mitgliedschaft, Abonnements&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Zuhause,Arbeitsplatz = Raum?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Ausleihe -&amp;gt; (Ausleih-)Zeitraum eigene Entität oder Attribut?&lt;/font&gt;&lt;br&gt;Förderung &lt;br&gt;&lt;/div&gt;&lt;div&gt;Vermittlung&lt;/div&gt;&lt;div&gt;Infomieren&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Orientierungshilfen?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Archiv = Sammlung?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Kölner Kunstszene, internationale Kunstszene&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Ansicht?&lt;/font&gt;&lt;br&gt;Kunstzeitschriften&lt;/div&gt;&lt;div&gt;Begegnung&lt;/div&gt;&lt;div&gt;Ausstellung&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Qualität und Aussage einer Arbeit?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Technik&lt;/div&gt;&lt;div&gt;Kunst&lt;/div&gt;&lt;div&gt;Gestaltung&lt;/div&gt;&lt;div&gt;Anmeldung&lt;/div&gt;&lt;div&gt;Suche&lt;/div&gt;&lt;div&gt;Ausleihstatus&lt;br&gt;Verfügbarkeit&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Termin&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Reservierung&lt;br&gt;Benachrichtigung / Mitteilung&lt;br&gt;Copyright&lt;br&gt;Favoriten&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Vorauswahl?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Gebühren (Leih und Mahngebühren)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Leasing Modell&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF9933&quot;&gt;Verbuchungssystem&lt;br&gt;Leih-und Mahnsystem (Verwaltungssystem)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(0 , 0 , 0) ; background-color: transparent ; font-weight: 400 ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline&quot; id=&quot;docs-internal-guid-f6005349-7fff-5bcc-70b4-9639776ee710&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Finanzierung je Organisation&lt;br&gt;Außendarstellung ( Soziale Netzwerke, Vermarktung ) &lt;br&gt;&lt;/div&gt;&lt;div&gt;Träger (Kulturamt, ...)&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF0000&quot;&gt;Leihgeber*innen / Besitzer*innen&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="490" y="-1200" width="370" height="800" as="geometry" />
+          <mxGeometry x="490" y="-1200" width="370" height="630" as="geometry" />
         </mxCell>
         <mxCell id="QyySiSqi_o87a0WgYrd6-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;span&gt;Mitgliedschaft&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1009" y="-1410" width="140" height="60" as="geometry" />
