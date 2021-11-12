@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T16:59:53.717Z" agent="5.0 (Macintosh)" etag="g9hLU39sn9vPN0pz_2oR" version="15.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-12T17:00:17.106Z" agent="5.0 (Macintosh)" etag="TYUrQZd8gG0RTBmbW7Ej" version="15.7.0" type="github" pages="3">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
     <mxGraphModel dx="2037" dy="3474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,16 +8,16 @@
           <mxGeometry x="390" y="-1005" width="280" height="494" as="geometry" />
         </mxCell>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-35" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;span&gt;Informieren&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="380" y="-210" width="140" height="60" as="geometry" />
+          <mxGeometry x="414" y="-510" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-55" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;span&gt;Anmeldung&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="380" y="-88" width="140" height="60" as="geometry" />
+          <mxGeometry x="414" y="-388" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-69" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Legende &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;font color=&quot;#82B366&quot;&gt;User*in&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#6C8EBF&quot;&gt;Artothek / System&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;font color=&quot;#67AB9F&quot;&gt;&lt;font color=&quot;#FF9933&quot;&gt;Diskutieren&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;font color=&quot;#67AB9F&quot;&gt;&lt;font color=&quot;#FF0000&quot;&gt;Neu dazugekommen&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
           <mxGeometry x="400" y="-1200" width="200" height="170" as="geometry" />
         </mxCell>
         <mxCell id="MjiaOBW0HprSQLc15TfK-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Begegnung&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VY2cDKLRbNuXClx3hJeE-1">
-          <mxGeometry x="380" y="24" width="140" height="60" as="geometry" />
+          <mxGeometry x="414" y="-276" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xb_qL5ZKRjddOutZD5-1-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="VY2cDKLRbNuXClx3hJeE-1" source="MjiaOBW0HprSQLc15TfK-1" target="MjiaOBW0HprSQLc15TfK-7">
           <mxGeometry relative="1" as="geometry" />
