@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T15:51:32.155Z" agent="5.0 (Macintosh)" etag="FRxmVYXzxhGOA37rmJZ5" version="15.8.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-24T15:52:21.098Z" agent="5.0 (Macintosh)" etag="rdliX2_9-YV-DGaSQCXX" version="15.8.4" type="github" pages="4">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
     <mxGraphModel dx="1426" dy="3133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -873,6 +873,14 @@
       <root>
         <mxCell id="eqzvlivAeTR5LK6ImDcL-0" />
         <mxCell id="eqzvlivAeTR5LK6ImDcL-1" parent="eqzvlivAeTR5LK6ImDcL-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cl8clidGfJVC2am-Ixhp" name="Aktivitätsdiagramm">
+    <mxGraphModel dx="1426" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="lI2-I7FPyd3XsSU9OiFy-0" />
+        <mxCell id="lI2-I7FPyd3XsSU9OiFy-1" parent="lI2-I7FPyd3XsSU9OiFy-0" />
       </root>
     </mxGraphModel>
   </diagram>
