@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T15:49:39.067Z" agent="5.0 (Macintosh)" etag="ldN0oUqLo4PvwI-7U8iY" version="15.8.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-24T15:51:32.155Z" agent="5.0 (Macintosh)" etag="FRxmVYXzxhGOA37rmJZ5" version="15.8.4" type="github" pages="3">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
     <mxGraphModel dx="1426" dy="3133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -868,7 +868,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="NRoLkXsM9BB7uL42oZsM" name="Page-2">
+  <diagram id="NRoLkXsM9BB7uL42oZsM" name="Architecture Diagram">
     <mxGraphModel dx="1426" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="eqzvlivAeTR5LK6ImDcL-0" />
