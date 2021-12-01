@@ -1,0 +1,108 @@
+version: "3.7"
+
+services:
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.local
+    restart: "no"
+    container_name: frontend
+    networks:
+      - shared-network-artothek
+    env_file:
+      - ./frontend/.env.local
+    ports:
+      - "3000:80"
+
+  service_base:
+    build:
+      context: ./base-service
+      dockerfile: Dockerfile.local
+    restart: unless-stopped
+    container_name: service_base
+    networks:
+      - shared-network-artothek
+    env_file:
+      - ./base-service/.env.local
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db_base
+      - rabbitmq_is_favorite
+
+  db_base:
+    image: postgres:13-alpine
+    restart: "no"
+    container_name: db_base
+    networks:
+      - shared-network-artothek
+    volumes:
+      - base-service-db:/var/lib/postgresql/data
+      - ./base-service/create-tables.sql:/docker-entrypoint-initdb.d/1-create-tables.sql
+      - ./base-service/entitäten-anlgen.sql:/docker-entrypoint-initdb.d/2-entitäten-anlgen.sql
+    environment:
+      - POSTGRES_DB=base_service
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+    ports:
+      - "5432:5432"
+
+  rabbitmq_is_favorite:
+    image: rabbitmq:3.7-management
+    restart: "no"
+    container_name: rabbitmq_is_favorite
+    networks:
+      - shared-network-artothek
+    volumes:
+      - rabbitmq-ratings:/var/lib/rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_PASS=admin
+      - RABBITMQ_DEFAULT_USER=admin
+    ports:
+      - "5671:5671"
+      - "5672:5672"
+      - "5673:15672"
+
+  service_recommendation:
+    build:
+      context: ./recommendation-service
+      dockerfile: Dockerfile.local
+    restart: unless-stopped
+    container_name: service_recommendation
+    networks:
+      - shared-network-artothek
+    env_file:
+      - ./recommendation-service/.env.local
+    ports:
+      - "6000:6000"
+    depends_on:
+      - db_recommendation
+      - rabbitmq_is_favorite
+
+  db_recommendation:
+    image: postgres:13-alpine
+    restart: "no"
+    container_name: db_recommendation
+    networks:
+      - shared-network-artothek
+    volumes:
+      - recommendation-service-db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=recommendation_service
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+    ports:
+      - "6432:5432"
+
+volumes:
+  base-service-db:
+    driver: local
+  recommendation-service-db:
+    driver: local
+  rabbitmq-ratings:
+    driver: local
+
+networks:
+  shared-network-artothek:
+    driver: bridge
