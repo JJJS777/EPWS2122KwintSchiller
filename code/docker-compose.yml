@@ -1,19 +1,18 @@
 version: "3.7"
 
 services:
-
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile.local
-    restart: "no"
-    container_name: frontend
-    networks:
-      - shared-network-artothek
-    env_file:
-      - ./frontend/.env.local
-    ports:
-      - "3000:80"
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile.local
+  #   restart: "no"
+  #   container_name: frontend
+  #   networks:
+  #     - shared-network-artothek
+  #   env_file:
+  #     - ./frontend/.env.local
+  #   ports:
+  #     - "3000:80"
 
   service_base:
     build:
@@ -32,15 +31,15 @@ services:
       - rabbitmq_is_favorite
 
   db_base:
-    image: postgres:13-alpine
+    image: postgres:latest
     restart: "no"
     container_name: db_base
     networks:
       - shared-network-artothek
     volumes:
       - base-service-db:/var/lib/postgresql/data
-      - ./base-service/create-tables.sql:/docker-entrypoint-initdb.d/1-create-tables.sql
-      - ./base-service/entitäten-anlgen.sql:/docker-entrypoint-initdb.d/2-entitäten-anlgen.sql
+      - ./base-service/sql/create-tables.sql:/docker-entrypoint-initdb.d/1-create-tables.sql
+      - ./base-service/sql/entitäten-anlgen.sql:/docker-entrypoint-initdb.d/2-entitäten-anlgen.sql
     environment:
       - POSTGRES_DB=base_service
       - POSTGRES_USER=admin
@@ -81,7 +80,7 @@ services:
       - rabbitmq_is_favorite
 
   db_recommendation:
-    image: postgres:13-alpine
+    image: postgres:latest
     restart: "no"
     container_name: db_recommendation
     networks:

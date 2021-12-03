@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js"
   },
-  "author": "",
+  "author": "KwintSchiller",
   "license": "ISC",
   "dependencies": {
     "amqplib": "^0.8.0",
