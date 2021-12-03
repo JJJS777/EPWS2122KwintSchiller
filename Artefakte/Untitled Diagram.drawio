@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T18:39:35.507Z" agent="5.0 (Macintosh)" etag="Bz8bZu8QGO9GcWhc0gs9" version="15.8.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-03T17:24:35.036Z" agent="5.0 (Macintosh)" etag="23xWCAi5aWg1Tanobo0j" version="15.8.8" type="github" pages="5">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
-    <mxGraphModel dx="946" dy="2953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="3133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-0" />
         <mxCell id="VY2cDKLRbNuXClx3hJeE-1" parent="VY2cDKLRbNuXClx3hJeE-0" />
@@ -1158,6 +1158,48 @@
         </mxCell>
         <mxCell id="C-LYmU5JrzHneM0jEfp3-202" value="&lt;div&gt;Werk&lt;/div&gt;&lt;div&gt;Ausleihen&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="lI2-I7FPyd3XsSU9OiFy-1">
           <mxGeometry x="-1540.5" y="640" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yv1hzYPYx2AhCnTvGm2Q" name="ERM">
+    <mxGraphModel dx="1210" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-0" />
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-1" parent="E3u3v52TlT6q7AM_WLCT-0" />
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-6" value="Users" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="E3u3v52TlT6q7AM_WLCT-1">
+          <mxGeometry x="24" y="440" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-7" value="+ UserID (PK)&#xa;+ userName&#xa;+ Name&#xa;+ Surname&#xa;+ _pw&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="E3u3v52TlT6q7AM_WLCT-6">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;" edge="1" parent="E3u3v52TlT6q7AM_WLCT-1" source="E3u3v52TlT6q7AM_WLCT-10" target="E3u3v52TlT6q7AM_WLCT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-9" value="&lt;div&gt;besitzt /&lt;/div&gt;&lt;div&gt;gehört_zu&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E3u3v52TlT6q7AM_WLCT-8">
+          <mxGeometry x="-0.4256" relative="1" as="geometry">
+            <mxPoint x="-23" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-10" value="Werk" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="E3u3v52TlT6q7AM_WLCT-1">
+          <mxGeometry x="644" y="380" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-11" value="+ WerkID (PK)&#xa;+ Title&#xa;+ Year&#xa;+ Genre&#xa;+ Artist&#xa;+ type&#xa;+ technique&#xa;+ size&#xa;+ borrowed&#xa;+ License&#xa;+ format&#xa;+ Material&#xa;+ motive" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="E3u3v52TlT6q7AM_WLCT-10">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-12" value="Favoriten" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="E3u3v52TlT6q7AM_WLCT-1">
+          <mxGeometry x="334" y="450" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-13" value="+ UserID (PK, FK)&lt;br&gt;&lt;div&gt;+ WerkID (PK, FK)&lt;/div&gt;&lt;div&gt;+ added&lt;/div&gt;&lt;div&gt;+ count_lend&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="E3u3v52TlT6q7AM_WLCT-12">
+          <mxGeometry y="30" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERone;startFill=0;" edge="1" parent="E3u3v52TlT6q7AM_WLCT-1" source="E3u3v52TlT6q7AM_WLCT-7" target="E3u3v52TlT6q7AM_WLCT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-15" value="gibt ab / &lt;br&gt;gehört zu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E3u3v52TlT6q7AM_WLCT-14">
+          <mxGeometry x="0.0444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
