@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T09:33:03.318Z" agent="5.0 (Macintosh)" etag="E2u4q_KUWUoPd6n2Jb3Y" version="15.8.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-05T14:01:32.297Z" agent="5.0 (Macintosh)" etag="iFouAm9-1_q96VMLz-QR" version="15.9.1" type="github" pages="5">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
-    <mxGraphModel dx="1426" dy="3133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="2953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VY2cDKLRbNuXClx3hJeE-0" />
         <mxCell id="VY2cDKLRbNuXClx3hJeE-1" parent="VY2cDKLRbNuXClx3hJeE-0" />
@@ -1163,7 +1163,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yv1hzYPYx2AhCnTvGm2Q" name="ERM">
-    <mxGraphModel dx="1188" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="E3u3v52TlT6q7AM_WLCT-0" />
         <mxCell id="E3u3v52TlT6q7AM_WLCT-1" parent="E3u3v52TlT6q7AM_WLCT-0" />
@@ -1184,7 +1184,7 @@
         <mxCell id="E3u3v52TlT6q7AM_WLCT-10" value="Artwork" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="E3u3v52TlT6q7AM_WLCT-1" vertex="1">
           <mxGeometry x="620" y="380" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="E3u3v52TlT6q7AM_WLCT-11" value="+ WerkID (PK)&#xa;+ Title&#xa;+ Year&#xa;+ Genre&#xa;+ Artist&#xa;+ type&#xa;+ technique&#xa;+ size&#xa;+ borrowed&#xa;+ License&#xa;+ format&#xa;+ Material&#xa;+ motive" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="E3u3v52TlT6q7AM_WLCT-10" vertex="1">
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-11" value="+ WerkID (PK)&#xa;+ Title&#xa;+ Year&#xa;+ Genre&#xa;+ Artist&#xa;+ type&#xa;+ technique&#xa;+ size&#xa;+ lent&#xa;+ License&#xa;+ format&#xa;+ Material&#xa;+ motive" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="E3u3v52TlT6q7AM_WLCT-10" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="E3u3v52TlT6q7AM_WLCT-12" value="Favorite" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="E3u3v52TlT6q7AM_WLCT-1" vertex="1">
