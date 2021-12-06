@@ -1,6 +1,6 @@
 const db = require('./db_query');
 const helper = require('./db_helper');
-const config = require('../db_config');
+const config = require('./db_config');
 const bcrypt = require('bcrypt');
 
 async function getMultiple(page = 1) {
