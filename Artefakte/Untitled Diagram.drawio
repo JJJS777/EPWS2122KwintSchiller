@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T10:46:23.626Z" agent="5.0 (Macintosh)" etag="x4P_yNSXbsezwJ64waDK" version="15.9.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-06T10:47:37.974Z" agent="5.0 (Macintosh)" etag="LQSjEzzVFzDrn7VfrGGO" version="15.9.1" type="github" pages="5">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
     <mxGraphModel dx="1426" dy="3133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -869,7 +869,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NRoLkXsM9BB7uL42oZsM" name="Architecture Diagram">
-    <mxGraphModel dx="1883" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2610" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="eqzvlivAeTR5LK6ImDcL-0" />
         <mxCell id="eqzvlivAeTR5LK6ImDcL-1" parent="eqzvlivAeTR5LK6ImDcL-0" />
