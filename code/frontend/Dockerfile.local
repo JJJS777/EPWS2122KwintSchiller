@@ -1,11 +1,15 @@
-FROM node
+FROM cirrusci/flutter:2.5.3 as build
 
-WORKDIR /app
+WORKDIR /src
 
-COPY package.json .
-COPY package-lock.json .
-RUN npm i
+RUN flutter precache --no-linux
+
 COPY . .
 
-ENTRYPOINT ["npm"]
-CMD ["run-script", "start"]
+RUN flutter pub get
+
+RUN flutter build web
+
+FROM nginx:1.21.4 as final
+
+COPY --from=build /src/build/web /usr/share/nginx/html
