@@ -1,10 +1,15 @@
+'use strict';
+
 const express = require('express');
 const app = express();
 const port = process.env.PORT;
-const rabiitmqUrl = process.env.RABBITMQ_URL;
-const amqp = require('amqplib/callback_api');
 const { Client } = require("pg");
+const http = require('http');
 
+const indexRouter = require('./routes/index');
+const userRouter = require('./routes/user');
+
+//Verbindung zur DB aufbauen
 const client = new Client({
   user: process.env.DB_USER,
   host: process.env.DB_HOST,
@@ -21,18 +26,16 @@ client.connect(err => {
   }
 });
 
-amqp.connect(rabiitmqUrl, (error0, connection) => {
-  if (error0) {
-    throw error0;
-  }
-  connection.createChannel((error1, channel) =>{});
-});
+app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-});
+app.use('/', indexRouter);
+app.use('/user', userRouter);
 
-app.listen(port, () => {
+//Server erzeugen
+const server = http.createServer(app);
+
+server.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 });
 
+module.exports = app;
