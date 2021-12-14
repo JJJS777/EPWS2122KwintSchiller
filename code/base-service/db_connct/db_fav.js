@@ -16,7 +16,26 @@ async function create(favorite){
     return {message};
 }
 
+async function getMultiple(userId){
+    const rows = await dbQuery.query(
+        'SELECT * FROM favorites WHERE userID = $1',
+        [ userId ]
+    );
+    const data = helper.emptyOrRows(rows);
+    return data
+}
+
+async function getSingle(userId, artworkId){
+    const rows = await dbQuery.query(
+        'SELECT * FROM favorites WHERE (userID = $1 AND artworkID = $2)',
+        [ userId, artworkId ]
+    );
+    const data = helper.emptyOrRows(rows);
+    return data
+}
 
 module.exports = {
     create,
+    getMultiple,
+    getSingle
 }
