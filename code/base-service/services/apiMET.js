@@ -8,7 +8,7 @@ async function getMETData() {
     var URLarrayWithImage = 'https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=Paintings'
     try {
         const resIds = await axios.get(URLarrayWithImage);
-        objectWithImage = resIds.data.objectIDs.slice(-10)
+        objectWithImage = resIds.data.objectIDs.slice(-20)
         //console.log(objectWithImage)
     } catch (error) {
         console.error(error);

@@ -17,17 +17,17 @@ CREATE SEQUENCE userID_seq
 
 CREATE TABLE artworks (
 	artworkID 		SERIAL				PRIMARY KEY,
-	title			VARCHAR(200)		NOT NULL,
-	year			VARCHAR(50),
-	artist			VARCHAR(100),
-	objectName		VARCHAR(200),
-	classification	VARCHAR(200),
-	medium			VARCHAR(200),
-	dimensions		VARCHAR(50),
-	country			VARCHAR(100),
+	title			VARCHAR(500)		NOT NULL,
+	year			VARCHAR(200),
+	artist			VARCHAR(500),
+	objectName		VARCHAR(500),
+	classification	VARCHAR(500),
+	medium			VARCHAR(500),
+	dimensions		VARCHAR(500),
+	country			VARCHAR(200),
 	license			VARCHAR(100),
-	primaryImage	VARCHAR(200),
-	format			VARCHAR(100),
+	primaryImage	VARCHAR(500),
+	format			VARCHAR(200),
 	motive			VARCHAR(200),
 	copyright		BOOL,
 	lent			BOOL,
@@ -42,6 +42,6 @@ CREATE SEQUENCE artworkID_seq
 CREATE TABLE favorites (
 	userID			SERIAL		REFERENCES	users(userID),
 	artworkID		SERIAL 		REFERENCES	artworks(artworkID),
-	addad			DATE,
+	addad			TIMESTAMPTZ DEFAULT Now(),
 	PRIMARY KEY (userID, artworkID)
 );
