@@ -6,8 +6,13 @@ const port = process.env.PORT;
 const { Client } = require("pg");
 const http = require('http');
 
+const loadArtwork = require('./db_connct/db_artworks');
+
 const indexRouter = require('./routes/index');
 const userRouter = require('./routes/user');
+const artworkRouter = require('./routes/artwork');
+
+const apiCall = require('./services/apiMET');
 
 //Verbindung zur DB aufbauen
 const client = new Client({
@@ -28,8 +33,12 @@ client.connect(err => {
 
 app.use(express.json());
 
+/**Artworks über APi ziehen und in DB speichern */
+loadArtwork.insertArtwork();
+
 app.use('/', indexRouter);
 app.use('/user', userRouter);
+app.use('/artwork', artworkRouter);
 
 //Server erzeugen
 const server = http.createServer(app);
