@@ -11,6 +11,7 @@ const loadArtwork = require('./db_connct/db_artworks');
 const indexRouter = require('./routes/index');
 const userRouter = require('./routes/user');
 const artworkRouter = require('./routes/artwork');
+const favoriteRouter = require('./routes/favorite')
 
 const apiCall = require('./services/apiMET');
 
@@ -39,6 +40,7 @@ loadArtwork.insertArtwork();
 app.use('/', indexRouter);
 app.use('/user', userRouter);
 app.use('/artwork', artworkRouter);
+app.use('/favorite', favoriteRouter);
 
 //Server erzeugen
 const server = http.createServer(app);
