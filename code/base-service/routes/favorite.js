@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const db_fav = require('../db_connct/db_fav')
+const db_fav = require('../db_connct/db_fav');
+const amqp = require('../MSQ/amqp_favorite')
+
 
 /*neues Werk zu Favorite speichern*/
 router.post('/new', async (req, res, next) => {
@@ -10,6 +12,9 @@ router.post('/new', async (req, res, next) => {
         console.error(`Error adding to Favorite`, error.message);
         res.status(400).send(error); 
     }
+
+    await amqp.sendMsg(req.body);
+
 })
 
 /*Get auf alle gespeicherten Fav. eines Users*/
