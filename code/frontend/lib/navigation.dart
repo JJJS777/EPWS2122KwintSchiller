@@ -6,6 +6,7 @@ import 'package:frontend/search_page.dart';
 class NavigationWidget extends StatefulWidget {
   const NavigationWidget({Key? key}) : super(key: key);
 
+  //Wie genau funktioniert das mit createState
   @override
   State<NavigationWidget> createState() => _NavigationWidgetState();
 }
@@ -43,17 +44,17 @@ class _NavigationWidgetState extends State<NavigationWidget> {
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite_border),
             label: 'Favoriten',
-            backgroundColor: Colors.green,
+            backgroundColor: Colors.black,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.list_alt),
             label: 'Reservierung',
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.black,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person_outline),
             label: 'Profil',
-            backgroundColor: Colors.green,
+            backgroundColor: Colors.black,
           ),
         ],
       ),

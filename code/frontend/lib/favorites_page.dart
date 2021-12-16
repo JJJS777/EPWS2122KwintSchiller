@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Favorites extends StatelessWidget {
-  const Favorites({Key? key}) :  super(key: key);
+  const Favorites({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -41,36 +41,54 @@ class FavoritesLargePictureListView extends StatelessWidget {
 }
 
 class GridViewTile extends StatelessWidget {
-  const GridViewTile({Key? key}) : super(key: key);
+  final bool showSubtitle;
+
+  const GridViewTile({Key? key, this.showSubtitle = true}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
-    return Card(
-      clipBehavior: Clip.antiAlias,
-      child: Column(
-        children: [
-          Expanded(
-            child: Image.asset("assets/images/sample1.png"),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Name des Werkes',
-                  style: theme.textTheme.subtitle1,
-                ),
-                Text(
-                  'Kurze Beschreibung des Werkes',
-                  style: theme.textTheme.caption,
-                ),
-              ],
+    return AspectRatio(
+      aspectRatio: 3 / 4,
+      child: Card(
+        clipBehavior: Clip.hardEdge,
+        child: Stack(
+          fit: StackFit.expand,
+          children: [
+            FittedBox(
+              fit: BoxFit.cover,
+              child: Image.asset("assets/images/sample1.png"),
             ),
-          ),
-        ],
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                color: Colors.white.withOpacity(0.87),
+                child: Padding(
+                  padding: const EdgeInsets.all(4.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        'Name des Werkes',
+                        style: theme.textTheme.bodyText2,
+                        // overflow: TextOverflow.ellipsis,
+                      ),
+                      if(showSubtitle)
+                        Text(
+                          'Kurze Beschreibung des Werkes',
+                          style: theme.textTheme.caption,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
