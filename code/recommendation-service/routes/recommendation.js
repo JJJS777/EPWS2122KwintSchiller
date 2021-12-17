@@ -5,7 +5,7 @@ const ger = require('../GER/ger');
 /* GET recommendations */
 router.get('/user/:id', async function (req, res, next) {
   ger.recommendations_for_person('favorites', req.params.id, {
-    actions: { "add_to_fav": 1, "remove_from_fav": -1 } //ggf. anpassen!
+    actions: { "add_to_fav": 2, "remove_from_fav": -1 } //ggf. anpassen!
   }).then((querry) => {
     let recommendations = querry.recommendations.map((rec) => ({
       artworkid: rec.thing

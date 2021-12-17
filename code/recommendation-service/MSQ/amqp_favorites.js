@@ -20,7 +20,12 @@ const consumer = (conn) => {
             if (msg !== null ){
                 const message = JSON.parse(msg.content.toString());
                 console.log('consuming');
-                console.log(message);
+                // console.log("--------------->>> TEST")
+                // console.log("userID, die angeblich null ist: " + message.userid);
+                // console.log("Aktion auf Favoriten:" + message.action);
+                // console.log("ArtworkID:" + message.artworkid );
+                // console.log("msg:" + msg);
+                // console.log("message:" + message);
 
                 ger.events([
                     {
