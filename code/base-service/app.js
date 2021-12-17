@@ -11,9 +11,7 @@ const loadArtwork = require('./db_connct/db_artworks');
 const indexRouter = require('./routes/index');
 const userRouter = require('./routes/user');
 const artworkRouter = require('./routes/artwork');
-const favoriteRouter = require('./routes/favorite')
-
-const apiCall = require('./services/apiMET');
+const favoriteRouter = require('./routes/favorite');
 
 //Verbindung zur DB aufbauen
 const client = new Client({

@@ -1,6 +1,7 @@
 const config = require('../config');
 const ger = require('../GER/ger');
 
+//msq
 const newFavorite = 'new_favorite';
 
 const bail = (err) => {
@@ -19,19 +20,19 @@ const consumer = (conn) => {
             if (msg !== null ){
                 const message = JSON.parse(msg.content.toString());
                 console.log('consuming');
-                console.log(msg);
+                console.log(message);
 
                 ger.events([
                     {
                         namespace: 'favorites',
                         person: message.userid,
-                        action: 'likes',
+                        action: message.action, //-> aus dem Event der msq checken, ob es sich um hinzufügen oder entfernen handelt (add_to_fav oder remove_from_fav )
                         thing: message.artworkid,
                         expires_at: '2050-01-01'
                     }])
                     .then(() => {
                         return ger.recommendations_for_person('favorites', message.userid, {
-                            actions: {  "add_to_fav": 1, "remove_from_fav": -1  } //ggf. anpassen
+                            actions: {  "add_to_fav": 2, "remove_from_fav": -1  } //ggf. anpassen
                         });
                     })
                     .then((recommendations) => {
