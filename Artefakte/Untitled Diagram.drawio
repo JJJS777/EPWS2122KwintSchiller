@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-18T15:18:10.909Z" agent="5.0 (Macintosh)" etag="MRMXPFdBrHUjkuO7s4eX" version="16.0.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-18T15:36:17.594Z" agent="5.0 (Macintosh)" etag="isPh3xTlqPDpWd2ivvc5" version="16.0.0" type="github" pages="5">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
     <mxGraphModel dx="730" dy="2953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -995,7 +995,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cl8clidGfJVC2am-Ixhp" name="Aktivitätsdiagramm">
-    <mxGraphModel dx="4210" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3936" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lI2-I7FPyd3XsSU9OiFy-0" />
         <mxCell id="lI2-I7FPyd3XsSU9OiFy-1" parent="lI2-I7FPyd3XsSU9OiFy-0" />
@@ -1193,7 +1193,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yv1hzYPYx2AhCnTvGm2Q" name="ERM">
-    <mxGraphModel dx="1210" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1455" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="E3u3v52TlT6q7AM_WLCT-0" />
         <mxCell id="E3u3v52TlT6q7AM_WLCT-1" parent="E3u3v52TlT6q7AM_WLCT-0" />
@@ -1212,10 +1212,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E3u3v52TlT6q7AM_WLCT-10" value="Artwork" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="E3u3v52TlT6q7AM_WLCT-1" vertex="1">
-          <mxGeometry x="620" y="380" width="160" height="270" as="geometry" />
+          <mxGeometry x="620" y="370" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="E3u3v52TlT6q7AM_WLCT-11" value="+ WerkID (PK)&#xa;+ Title&#xa;+ Year&#xa;+ Genre&#xa;+ Artist&#xa;+ type&#xa;+ technique&#xa;+ size&#xa;+ lent&#xa;+ License&#xa;+ format&#xa;+ Material&#xa;+ motive&#xa;+ loanUntil&#xa;+ loanExtended&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="E3u3v52TlT6q7AM_WLCT-10" vertex="1">
-          <mxGeometry y="30" width="160" height="240" as="geometry" />
+        <mxCell id="E3u3v52TlT6q7AM_WLCT-11" value="+ artworkID (PK)&#xa;+ title&#xa;+ year&#xa;+ artist&#xa;+ objectName&#xa;+ classification&#xa;+ medium&#xa;+ dimensions&#xa;+ country&#xa;+ license&#xa;+ primaryImage&#xa;+ format&#xa;+ motive&#xa;+ copyright&#xa;+ lent&#xa;+ loanUntil&#xa;+ loanExtended&#xa;+ countLent&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="E3u3v52TlT6q7AM_WLCT-10" vertex="1">
+          <mxGeometry y="30" width="160" height="270" as="geometry" />
         </mxCell>
         <mxCell id="E3u3v52TlT6q7AM_WLCT-12" value="Favorite" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="E3u3v52TlT6q7AM_WLCT-1" vertex="1">
           <mxGeometry x="334" y="450" width="160" height="100" as="geometry" />
@@ -1232,7 +1232,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zVbsikUIHD9gVzV-935B-0" value="Wenn ausleihe verlängert wird (loanExtended = true), muss sich loanUntil anpassen und ggf. ein Intressent benachrichtig werden -&amp;gt; AL?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="E3u3v52TlT6q7AM_WLCT-1" vertex="1">
-          <mxGeometry x="520" y="680" width="210" height="100" as="geometry" />
+          <mxGeometry x="540" y="870" width="210" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
