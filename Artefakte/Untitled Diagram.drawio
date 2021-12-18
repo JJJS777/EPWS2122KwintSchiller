@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-18T13:51:54.037Z" agent="5.0 (Macintosh)" etag="fiyeiZcJZ9VgNtpxL5hw" version="15.9.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-18T15:11:31.693Z" agent="5.0 (Macintosh)" etag="r-XRg7YTcyh_vpz82Nav" version="15.9.6" type="github" pages="5">
   <diagram name="Domänenmodell_v3.0" id="jYzS57EVwnnD3Q-TsNls">
     <mxGraphModel dx="1210" dy="3133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -869,18 +869,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NRoLkXsM9BB7uL42oZsM" name="Architecture Diagram">
-    <mxGraphModel dx="2251" dy="2104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1870" dy="2048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="eqzvlivAeTR5LK6ImDcL-0" />
         <mxCell id="eqzvlivAeTR5LK6ImDcL-1" parent="eqzvlivAeTR5LK6ImDcL-0" />
         <mxCell id="wHFO7-m0bYQBaCukhVCM-2" value="Schema &lt;br&gt;der Artothek" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_mini_2;" parent="eqzvlivAeTR5LK6ImDcL-1" vertex="1">
           <mxGeometry x="110" y="250" width="35" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="wHFO7-m0bYQBaCukhVCM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="eqzvlivAeTR5LK6ImDcL-1" source="wHFO7-m0bYQBaCukhVCM-3" target="wHFO7-m0bYQBaCukhVCM-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="wHFO7-m0bYQBaCukhVCM-5" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="eqzvlivAeTR5LK6ImDcL-1" vertex="1">
-          <mxGeometry x="-110" y="-30" width="117.5" height="44" as="geometry" />
+          <mxGeometry x="220" width="117.5" height="44" as="geometry" />
         </mxCell>
         <mxCell id="wHFO7-m0bYQBaCukhVCM-6" value="REST-API" style="dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.logs_api;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" parent="wHFO7-m0bYQBaCukhVCM-5" vertex="1">
           <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
@@ -971,9 +968,6 @@
             <mxPoint x="3" y="284" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wHFO7-m0bYQBaCukhVCM-3" value="DB des Kulturelles &lt;br&gt;Erbe Koeln" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_availability_group;" parent="wHFO7-m0bYQBaCukhVCM-37" vertex="1">
-          <mxGeometry x="51" y="80" width="59" height="59" as="geometry" />
-        </mxCell>
         <mxCell id="eYQkfamRZP9didpiSEwa-0" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;Tables:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ol&gt;&lt;li&gt;User&lt;/li&gt;&lt;li&gt;Artworks&lt;/li&gt;&lt;li&gt;&lt;div&gt;Favoriten&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="wHFO7-m0bYQBaCukhVCM-37" vertex="1">
           <mxGeometry x="280" y="50" width="110" height="98" as="geometry" />
         </mxCell>
@@ -984,6 +978,12 @@
         </mxCell>
         <mxCell id="Z95fED41a8E2ILRIAKjc-2" value="&lt;div&gt;Web App&lt;br&gt;Web Frontend&lt;br&gt;&lt;/div&gt;" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;" parent="eqzvlivAeTR5LK6ImDcL-1" vertex="1">
           <mxGeometry x="730" y="320" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="wHFO7-m0bYQBaCukhVCM-3" value="DB des Kulturelles &lt;br&gt;Erbe Koeln" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_availability_group;" parent="eqzvlivAeTR5LK6ImDcL-1" vertex="1">
+          <mxGeometry x="-50" y="-15" width="59" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="nq_sJVmeaYpwACBAmrDW-0" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="eqzvlivAeTR5LK6ImDcL-1">
+          <mxGeometry x="-200" y="-95" width="247.5" height="165" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
