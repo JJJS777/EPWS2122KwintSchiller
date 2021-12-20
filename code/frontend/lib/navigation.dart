@@ -6,7 +6,7 @@ import 'package:frontend/search_page.dart';
 class NavigationWidget extends StatefulWidget {
   const NavigationWidget({Key? key}) : super(key: key);
 
-  //Wie genau funktioniert das mit createState
+  //vom Framework wird autom. erzeigt . Zustandverwaltung
   @override
   State<NavigationWidget> createState() => _NavigationWidgetState();
 }
@@ -32,8 +32,8 @@ class _NavigationWidgetState extends State<NavigationWidget> {
     return Scaffold(
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _selectedIndex,
-        onTap: _onItemTapped,
+        currentIndex: _selectedIndex, // welche Seite gerade aktiv ist//icon ausgewählt
+        onTap: _onItemTapped, // widget rruft eine callback methode auf
         //callback Methode, wenn der User auf ein Item tippt
         items: const [
           BottomNavigationBarItem(
@@ -61,3 +61,5 @@ class _NavigationWidgetState extends State<NavigationWidget> {
     );
   }
 }
+
+

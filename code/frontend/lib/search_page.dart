@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:frontend/favorites_page.dart';
 
 class SearchPage extends StatelessWidget {
-  // wann statefull wann stateless?
-  const SearchPage({Key? key}) : super(key: key); //??
+
+  const SearchPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return SafeArea(
         child: Center(
           child: Padding(
-      padding: const EdgeInsets.all(16.0),//???
+      padding: const EdgeInsets.all(16.0),
       child: Stack(
           children: [
             Column(
@@ -28,7 +28,7 @@ class SearchPage extends StatelessWidget {
                       // code when the user saves the form.
                     }),
                 SizedBox(height: 24,),
-                Expanded(
+                Expanded( //??
                   child: Column(
                     children: [
                       Gallery(title: "Für dich empfohlen",),
@@ -73,10 +73,10 @@ class Gallery extends StatelessWidget {
           scrollDirection: Axis.horizontal,
           child: Row(
             children: [
-              Container( width: 150, child: GridViewTile(showSubtitle: false,)),
-              Container( width: 150, child: GridViewTile(showSubtitle: false,)),
-              Container( width: 150, child: GridViewTile(showSubtitle: false,)),
-              Container( width: 150, child: GridViewTile(showSubtitle: false,)),
+              Container( width: 150, child: AspectRatio(aspectRatio: 3 / 4, child: GridViewTile(showSubtitle: false,))),
+              Container( width: 150, child: AspectRatio(aspectRatio: 3 / 4, child: GridViewTile(showSubtitle: false,))),
+              Container( width: 150, child: AspectRatio(aspectRatio: 3 / 4, child: GridViewTile(showSubtitle: false,))),
+              Container( width: 150, child: AspectRatio(aspectRatio: 3 / 4, child: GridViewTile(showSubtitle: false,))),
             ],
           ),
         ),

@@ -18,7 +18,9 @@ class FavoritesGridView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GridView.extent(maxCrossAxisExtent: 250, children: [
+    return GridView.extent( // anordnung
+      childAspectRatio: 3 / 4, // 3 width to 4 height
+        maxCrossAxisExtent: 250, children: [ // ausdehnung des griedviewdependencie points
       GridViewTile(),
       GridViewTile(),
       GridViewTile(),
@@ -27,6 +29,60 @@ class FavoritesGridView extends StatelessWidget {
   }
 }
 
+class GridViewTile extends StatelessWidget {
+  final bool showSubtitle;
+
+  const GridViewTile({Key? key, this.showSubtitle = true}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);// style app
+
+    return Card(
+      clipBehavior: Clip.hardEdge, // abgerundete Kanten für alle children
+
+      child: Stack(
+        fit: StackFit.expand, //alle children auf die Größe des Stacks
+        children: [
+          FittedBox(
+            fit: BoxFit.cover,
+            child: Image.asset("assets/images/sample1.png"),
+          ),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: Container(
+              color: Colors.white.withOpacity(0.87),
+              child: Padding(
+                padding: const EdgeInsets.all(4.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      'Name des Werkes',
+                      style: theme.textTheme.bodyText2,
+                      // overflow: TextOverflow.ellipsis,
+                    ),
+                    if(showSubtitle)
+                      Text(
+                        'Kurze Beschreibung des Werkes',
+                        style: theme.textTheme.caption,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/*
+//alternative View test
 class FavoritesLargePictureListView extends StatelessWidget {
   const FavoritesLargePictureListView({Key? key}) : super(key: key);
 
@@ -39,60 +95,7 @@ class FavoritesLargePictureListView extends StatelessWidget {
     ]);
   }
 }
-
-class GridViewTile extends StatelessWidget {
-  final bool showSubtitle;
-
-  const GridViewTile({Key? key, this.showSubtitle = true}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-
-    return AspectRatio(
-      aspectRatio: 3 / 4,
-      child: Card(
-        clipBehavior: Clip.hardEdge,
-        child: Stack(
-          fit: StackFit.expand,
-          children: [
-            FittedBox(
-              fit: BoxFit.cover,
-              child: Image.asset("assets/images/sample1.png"),
-            ),
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: Container(
-                color: Colors.white.withOpacity(0.87),
-                child: Padding(
-                  padding: const EdgeInsets.all(4.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        'Name des Werkes',
-                        style: theme.textTheme.bodyText2,
-                        // overflow: TextOverflow.ellipsis,
-                      ),
-                      if(showSubtitle)
-                        Text(
-                          'Kurze Beschreibung des Werkes',
-                          style: theme.textTheme.caption,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
+//alternative View test2
 
 class FavoriteListTile extends StatelessWidget {
   const FavoriteListTile({Key? key}) : super(key: key);
@@ -161,3 +164,4 @@ class FavoritesListView extends StatelessWidget {
     ]);
   }
 }
+*/
