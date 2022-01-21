@@ -2,6 +2,7 @@ const dbQuery = require('./db_query');
 const helper = require('./db_helper');
 const config = require('./db_config');
 
+/** Favorite anlegen */
 async function create(favorite){
     const result = await dbQuery.query(
         'INSERT INTO favorites(userID, artworkID ) VALUES ($1, $2 ) RETURNING *',
@@ -16,18 +17,20 @@ async function create(favorite){
     return {message};
 }
 
+/** Liefert alle Favoriten eines Users aus */
 async function getMultiple(userId){
     const rows = await dbQuery.query(
-        'SELECT * FROM favorites WHERE userID = $1',
+        'SELECT userID, artworkID, title, artist, primaryImage FROM favorites NATURAL JOIN artworks WHERE userID = $1;',
         [ userId ]
     );
     const data = helper.emptyOrRows(rows);
     return data
 }
 
+/** Liefert eine bestimmtes favorisierte Bild aus */
 async function getSingle(userId, artworkId){
     const rows = await dbQuery.query(
-        'SELECT * FROM favorites WHERE (userID = $1 AND artworkID = $2)',
+        'SELECT userID, artworkID, title, artist, primaryImage FROM favorites NATURAL JOIN artworks WHERE userID = $1 AND artworkID = $2;',
         [ userId, artworkId ]
     );
     const data = helper.emptyOrRows(rows);
