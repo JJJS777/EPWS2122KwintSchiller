@@ -1,4 +1,8 @@
+import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
+import 'package:frontend/services/artothek_client.dart';
+
+import 'artwork_detail_page.dart';
 
 class Favorites extends StatelessWidget {
   const Favorites({Key? key}) : super(key: key);
@@ -18,64 +22,95 @@ class FavoritesGridView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GridView.extent( // anordnung
-      childAspectRatio: 3 / 4, // 3 width to 4 height
-        maxCrossAxisExtent: 250, children: [ // ausdehnung des griedviewdependencie points
-      GridViewTile(),
-      GridViewTile(),
-      GridViewTile(),
-      GridViewTile(),
-    ]);
+    return FutureBuilder<List<Artwork>>(
+        future: ArtothekClient.instance.getFavorites(),
+        builder: (context, snapshot) {
+          return GridView.extent(
+            key: ValueKey('Gallery_Favories'),
+              // anordnung
+              childAspectRatio: 3 / 4,
+              // 3 width to 4 height
+              maxCrossAxisExtent: 250,
+              children: snapshot.data?.map((e) => GridViewTile(
+                artwork: e,
+                title: e.title,
+                showSubtitle: false,
+                picture: e.primaryimage,
+              )).toList() ?? [],);
+        });
   }
 }
 
 class GridViewTile extends StatelessWidget {
   final bool showSubtitle;
+  final String? title;
+  final String? picture;
+  final Artwork? artwork;
 
-  const GridViewTile({Key? key, this.showSubtitle = true}) : super(key: key);
+  const GridViewTile({
+    Key? key,
+    this.showSubtitle = true,
+    this.title,
+    this.picture,
+    this.artwork,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);// style app
+    final theme = Theme.of(context); // style app
 
     return Card(
-      clipBehavior: Clip.hardEdge, // abgerundete Kanten für alle children
-
-      child: Stack(
-        fit: StackFit.expand, //alle children auf die Größe des Stacks
-        children: [
-          FittedBox(
-            fit: BoxFit.cover,
-            child: Image.asset("assets/images/sample1.png"),
-          ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: Container(
-              color: Colors.white.withOpacity(0.87),
-              child: Padding(
-                padding: const EdgeInsets.all(4.0),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      'Name des Werkes',
-                      style: theme.textTheme.bodyText2,
-                      // overflow: TextOverflow.ellipsis,
+      clipBehavior: Clip.antiAlias, // abgerundete Kanten für alle children
+      child: OpenContainer(
+        closedBuilder: (BuildContext context, void Function() action) {
+          return Stack(
+            fit: StackFit.expand, //alle children auf die Größe des Stacks
+            children: [
+              FittedBox(
+                fit: BoxFit.cover,
+                child: picture != null
+                    ? Image.network(
+                        picture!,
+                        cacheWidth: 300, // network cache
+                        cacheHeight: 400,
+                      )
+                    : Image.asset("assets/images/sample1.png"),
+              ),
+              Align(
+                alignment: Alignment.bottomCenter,
+                child: Container(
+                  color: Colors.white.withOpacity(0.87),
+                  child: Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          title ?? 'Name des Werkes',
+                          style: theme.textTheme.bodyText2,
+                          overflow: TextOverflow.ellipsis,
+                          // overflow: TextOverflow.ellipsis,
+                        ),
+                        if (showSubtitle)
+                          Text(
+                            'Kurze Beschreibung des Werkes',
+                            style: theme.textTheme.caption,
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                      ],
                     ),
-                    if(showSubtitle)
-                      Text(
-                        'Kurze Beschreibung des Werkes',
-                        style: theme.textTheme.caption,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                  ],
+                  ),
                 ),
               ),
-            ),
-          ),
-        ],
+            ],
+          );
+        },
+        openBuilder: (BuildContext context,
+            void Function({Object? returnValue}) action) {
+          return ArtWorkDetailPage(artwork: artwork);
+        },
       ),
     );
   }

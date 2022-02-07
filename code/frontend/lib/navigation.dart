@@ -1,7 +1,11 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:frontend/account_page.dart';
 import 'package:frontend/favorites_page.dart';
+import 'package:frontend/reservations_page.dart';
 import 'package:frontend/search_page.dart';
+import 'package:frontend/services/dialogflow_service.dart';
 
 class NavigationWidget extends StatefulWidget {
   const NavigationWidget({Key? key}) : super(key: key);
@@ -16,7 +20,7 @@ class _NavigationWidgetState extends State<NavigationWidget> {
   final _pages = const [
     SearchPage(),
     Favorites(),
-    Account(),
+    Reservations(),
     Account(),
   ];
 
@@ -27,13 +31,29 @@ class _NavigationWidgetState extends State<NavigationWidget> {
   }
 
   @override
+  void initState() {
+    DialogFlowService.instance.onCommandRecognized.listen((value) {
+      if (value.command == DialogFlowCommand.navigateToFavorites && mounted) {
+        setState(() {
+          _selectedIndex = 1;
+        });
+
+        DialogFlowService.instance.speak(value.fullfilmentText);
+      }
+    });
+    super.initState();
+  }
+
+  @override
   //bulid Methode wird immer aufgerufen wenn der Zustand sich ändert
   Widget build(BuildContext context) {
     return Scaffold(
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _selectedIndex, // welche Seite gerade aktiv ist//icon ausgewählt
-        onTap: _onItemTapped, // widget rruft eine callback methode auf
+        currentIndex: _selectedIndex,
+        // welche Seite gerade aktiv ist//icon ausgewählt
+        onTap: _onItemTapped,
+        // widget rruft eine callback methode auf
         //callback Methode, wenn der User auf ein Item tippt
         items: const [
           BottomNavigationBarItem(
@@ -61,5 +81,3 @@ class _NavigationWidgetState extends State<NavigationWidget> {
     );
   }
 }
-
-

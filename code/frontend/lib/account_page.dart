@@ -8,6 +8,12 @@ class Account extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return Chat(); // Instanziiert die Chatbot Schnittstelle
+    return
+      const Center(
+        child: Text(
+          'Willkommen zu deinem Artothek Account!',
+          textDirection: TextDirection.ltr,
+        ),
+      );
   }
 }

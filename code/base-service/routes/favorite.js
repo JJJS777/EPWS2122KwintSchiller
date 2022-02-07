@@ -16,7 +16,6 @@ router.post('/new', async (req, res, next) => {
         console.error(`Error adding to Favorite`, error.message);
         res.status(400).send(error);
     }
-
     //in msq publishen
     amqp.pubFav(req.body, 'add_to_fav');
 });
