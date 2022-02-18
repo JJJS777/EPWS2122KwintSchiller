@@ -20,7 +20,10 @@ Kunst und Kultur ist und bleibt ein wichtiges Teil gesellschaftlichen Lebens, al
 
 ![domänenmodell_v3.0](https://github.com/JJJS777/EPWS2122KwintSchiller/blob/main/Artefakte/Untitled%20Diagram-Dom%C3%A4nenmodell_v3.0.drawio.png "Domänenmodell_v3.0")
 
-## **Video zum Prototyp**
+## **Funktionaler Prototyp**
+
+![FP](https://github.com/JJJS777/EPWS2122KwintSchiller/blob/main/Artefakte/Zusammenfassung%20Screenshots.png "Funktionaler Prototyp")
+
 
  Unter folgendem Link ist ein kurzes Video zum Prototyp: https://th-koeln.sciebo.de/s/fSkNEGCHSypv99S \
  
