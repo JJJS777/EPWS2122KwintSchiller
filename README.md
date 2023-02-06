@@ -25,6 +25,4 @@ Kunst und Kultur ist und bleibt ein wichtiges Teil gesellschaftlichen Lebens, al
 ![FP](https://github.com/JJJS777/EPWS2122KwintSchiller/blob/main/Artefakte/Zusammenfassung%20Screenshots.png "Funktionaler Prototyp")
 
 
- Unter folgendem Link ist ein kurzes Video zum Prototyp: https://th-koeln.sciebo.de/s/fSkNEGCHSypv99S \
- 
-_Passwort:_ 1722
+ Unter folgendem [Link](https://th-koeln.sciebo.de/s/fSkNEGCHSypv99S) ist ein kurzes Video zum Prototyp _Passwort:_ 1722
